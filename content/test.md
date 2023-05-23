@@ -1,9 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-description: "{{ .Name }}"
-keywords: "{{replace .Name "-" ","}}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "Hugo Test"
+description: "HugoTest"
+keywords: "hugo,java,test"
 categories:
  - java 
  - test
